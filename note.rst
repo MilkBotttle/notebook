@@ -27,3 +27,39 @@ new work load.
 If you configured with cleaning enable and use Nutron as DHCP provider, you 
 need to set the *cleaning_network_uuid* opeiton in ironic.conf before start the
 kilo ironic service.
+
+
+
+
+
+Ironic element explanation
+==========================
+
+- port      pxe boot mac address
+- chassis   
+- node      the machine for ironic deploy
+- driver    the tool used to contrll the node
+
+
+
+
+Ironic Document
+===============
+
+Install guide
+http://docs.openstack.org/developer/ironic/deploy/install-guide.html
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
